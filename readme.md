@@ -3,6 +3,7 @@
 Tengda Han*, Max Bain*, Arsha Nagrani, Gül Varol, Weidi Xie and Andrew Zisserman.
 
 [[project page]](https://www.robots.ox.ac.uk/~vgg/research/autoad/)
+[[PDF]](https://www.robots.ox.ac.uk/~vgg/publications/2023/Han23/han23.pdf)
 
 <img src="asset/teaser.png" width="800">
 
