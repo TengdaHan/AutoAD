@@ -4,7 +4,7 @@ Tengda Han*, Max Bain*, Arsha Nagrani, Gül Varol, Weidi Xie and Andrew Zisserma
 
 [[project page]](https://www.robots.ox.ac.uk/~vgg/research/autoad/)
 
-<img src="asset/teaser.png" width="800">
+<img src="asset/teaser.png" width="600">
 
 ### Dataset Preparation
 We are working with the [MAD](https://github.com/Soldelli/MAD) team on the MAD-v2 dataset release.
