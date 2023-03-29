@@ -16,7 +16,11 @@ Please request access through them and download the datasets.
 
 The following text-only datasets can be downloaded:
 * AudioVault-AD [download](http://www.robots.ox.ac.uk/~htd/autoad/ad-movie8k-v3-nomadnolsmdc_NSSD_jaesung_0p95_minAD100_pronthresh0p05.csv)
-* AudioVault-Sub[download](http://www.robots.ox.ac.uk/~htd/autoad/subs-movie8k-v3-nomadnolsmdc_NSSD_jaesung_0p95_minAD100_pronthresh0p05.csv) (not used in the paper)
+* AudioVault-Sub [download](http://www.robots.ox.ac.uk/~htd/autoad/subs-movie8k-v3-nomadnolsmdc_NSSD_jaesung_0p95_minAD100_pronthresh0p05.csv) (not used in the paper)
+
+We also used [Conceptual Caption 3M](https://ai.google.com/research/ConceptualCaptions/) 
+and [WebVid 2.5M](https://github.com/m-bain/webvid) datasets in our paper.
+Please check their Terms of Use before downloading.
 
 ### AD/Subtitle Collection Scripts
 To get the AD/Subtitle (text) from the mixed audio track,
