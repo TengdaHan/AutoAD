@@ -8,11 +8,20 @@ Tengda Han*, Max Bain*, Arsha Nagrani, Gül Varol, Weidi Xie and Andrew Zisserma
 <img src="asset/teaser.png" width="600">
 
 ### Dataset Preparation
-We are working with the [MAD](https://github.com/Soldelli/MAD) team on the MAD-v2 dataset release.
-Detailed instructions will be released soon.
+The following three datasets can be downloaded from the [MAD](https://github.com/Soldelli/MAD) team:
+* MAD-v2-Named
+* MAD-v2-Unnamed
+* MAD Subtitles
+Please request access through them and download the datasets.
+
+The following text-only datasets can be downloaded:
+* AudioVault-AD [download](http://www.robots.ox.ac.uk/~htd/autoad/ad-movie8k-v3-nomadnolsmdc_NSSD_jaesung_0p95_minAD100_pronthresh0p05.csv)
+* AudioVault-Sub[download](http://www.robots.ox.ac.uk/~htd/autoad/subs-movie8k-v3-nomadnolsmdc_NSSD_jaesung_0p95_minAD100_pronthresh0p05.csv) (not used in the paper)
 
 ### AD/Subtitle Collection Scripts
-Comming soon.
+To get the AD/Subtitle (text) from the mixed audio track,
+our pipeline uses [WhisperX](https://github.com/m-bain/whisperX) for ASR followed by speaker diarization, speaker identification and synchronization. 
+Detailed pipeline script will be released soon.
 
 ### AutoAD Model and Scripts
 Comming soon.
