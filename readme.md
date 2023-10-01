@@ -1,9 +1,11 @@
-# AutoAD: Movie Description in Context
-[CVPR'23 Highlight]
-Tengda Han*, Max Bain*, Arsha Nagrani, Gül Varol, Weidi Xie and Andrew Zisserman.
+# AutoAD Project
+
+* AutoAD II: The Sequel – Who, When, and What in Movie Audio Description [ICCV'23]. Tengda Han, Max Bain, Arsha Nagrani, Gül Varol, Weidi Xie and Andrew Zisserman.
+* AutoAD I: Movie Description in Context [CVPR'23 Highlight]. Tengda Han*, Max Bain*, Arsha Nagrani, Gül Varol, Weidi Xie and Andrew Zisserman.
 
 [[project page]](https://www.robots.ox.ac.uk/~vgg/research/autoad/)
-[[PDF]](https://www.robots.ox.ac.uk/~vgg/publications/2023/Han23/han23.pdf)
+[[AutoAD-I PDF]](https://www.robots.ox.ac.uk/~vgg/publications/2023/Han23/han23.pdf)
+[[AutoAD-II PDF]](https://www.robots.ox.ac.uk/~vgg/publications/2023/Han23a/han23a.pdf)
 
 <img src="asset/teaser.png" width="600">
 
@@ -14,7 +16,7 @@ The following three datasets can be downloaded from the [MAD](https://github.com
 * MAD Subtitles
 Please request access through them and download the datasets.
 
-The following text-only datasets can be downloaded:
+The following text-only datasets can be downloaded from VGG's server:
 * AudioVault-AD [download](http://www.robots.ox.ac.uk/~htd/autoad/ad-movie8k-v3-nomadnolsmdc_NSSD_jaesung_0p95_minAD100_pronthresh0p05.csv)
 * AudioVault-Sub [download](http://www.robots.ox.ac.uk/~htd/autoad/subs-movie8k-v3-nomadnolsmdc_NSSD_jaesung_0p95_minAD100_pronthresh0p05.csv) (not used in the paper)
 
@@ -27,12 +29,19 @@ To get the AD/Subtitle (text) from the mixed audio track,
 our pipeline uses [WhisperX](https://github.com/m-bain/whisperX) for ASR followed by speaker diarization, speaker identification and synchronization. 
 Detailed pipeline script will be released soon.
 
-### AutoAD Model and Scripts
-Comming soon.
+### Model and Scripts
+* AutoAD-I: [autoad_i/](autoad_i/)
+* AutoAD-II: [autoad_ii/](autoad_ii/)
 
 ### Reference
 ```bibtex
-@InProceedings{han2023autoad,
+@InProceedings{han2023autoad2,
+  title={{AutoAD II: The Sequel} - Who, When, and What in Movie Audio Description},  
+  author={Tengda Han and Max Bain and Arsha Nagrani and G\"ul Varol and Weidi Xie and Andrew Zisserman},  
+  booktitle={ICCV},  
+  year={2023}}
+
+@InProceedings{han2023autoad1,
   title={{AutoAD}: Movie Description in Context},  
   author={Tengda Han and Max Bain and Arsha Nagrani and G\"ul Varol and Weidi Xie and Andrew Zisserman},  
   booktitle={CVPR},  
