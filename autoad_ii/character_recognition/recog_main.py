@@ -506,10 +506,7 @@ if __name__ == '__main__':
 
 
 
-"""python recog_main.py --batch_size 64 --num_clips 8 --lookahead 2 --use_context 0 --use_charbank global-ce -j 8 --epochs 5
-
-python recog_main.py --batch_size 64 --num_clips 8 --lookahead 2 --use_context 0 --use_charbank global-ce -j 8 --epochs 5 --clip_version L14
-
+"""
 python recog_main.py --batch_size 64 --num_clips 8 --lookahead 2 --use_context 0 --use_charbank global-ce -j 8 --epochs 5 --clip_version L14 --dataset mad_name
 
 python recog_main.py --batch_size 64 --num_clips 8 --lookahead 2 --use_context 0 --use_charbank global-ce -j 8 --epochs 5 --clip_version L14 --dataset movienet_name
@@ -517,9 +514,5 @@ python recog_main.py --batch_size 64 --num_clips 8 --lookahead 2 --use_context 0
 
 # inference:
 python recog_main.py --batch_size 64 --num_clips 8 --lookahead 2 --use_context 0 --use_charbank global-ce -j 8 --epochs 5 --clip_version L14 \
-    --test ~/beegfs/DATA/AutoAD/char_recog/log-tmp/2023_03_05_16_34_dec-gpt2-P2C0S0_BOS1_layer2_latent10_Loss-nce_CharBankglobal-ce_Ahead2_gpt_token-cls_sim-cos_hypo1_mad_raw_ViT-L14_DEV0_clips8_frames8_policy-default_bs64_lr0.0003/model/epoch9.pth.tar  --epochs 10  --num_clips 32
-
-python recog_main.py --batch_size 64 --num_clips 8 --lookahead 2 --use_context 0 --use_charbank global-ce -j 8 --epochs 5 --clip_version L14 \
-    --test log-tmp/Correct_2023_07_20_12_25_dec-gpt2-P2C0S0_BOS1_layer2_latent10_Loss-nce_CharBankglobal-ce_Ahead2_gpt_token-cls_sim-cos_hypo1_movienet_name_ViT-L14_DEV0_frames8_policy-default_bs64_lr0.0001/model/epoch4.pth.tar    
-
+    --test ckpt_dir/model/ckpt.pth.tar
 """

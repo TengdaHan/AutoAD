@@ -1,6 +1,6 @@
 ## Character recognition module
 
-<img src="../../asset/char_recog.jpg" width="500" alt="character recognition module"/>
+<img src="../../asset/char_recog.jpg" width="700" alt="character recognition module"/>
 
 This module takes movie cast list (including name and profile pictures) and movie frame features as inputs, 
 and outputs the on-screen characters by visual feature matching.
@@ -17,11 +17,11 @@ and outputs the on-screen characters by visual feature matching.
 
 ### Train character recognition module
 1. After all the preparations above, we train a simple character recognition module on MovieNet faces with this script [./recog_main.py](./recog_main.py)
-2. We inference the trained character recognition module on MAD movie features to recognize on-screen characters. The inference output can be downloaded [here]().
+2. We inference the trained character recognition module on MAD movie features to recognize on-screen characters. The inference output can be downloaded [here](http://www.robots.ox.ac.uk/~htd/autoad/MAD_char_prob_dict_trainval_MV550_CBcharbank_cos_top10_cal_jul.pkl).
 
 
 ### Results
 When evaluated on a subset of MovieNet movies, 
 the transformer-based character recognition module outperforms baselines by a large margin.
 
-<img src="../../asset/charbank_top10_pr_curve_PerActor.jpg" width="300" alt="PR curve"/>
+<img src="../../asset/charbank_top10_pr_curve_PerActor.jpg" width="500" alt="PR curve"/>
