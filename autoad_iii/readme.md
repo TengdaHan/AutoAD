@@ -3,6 +3,8 @@ The codebase for *AutoAD III: The Prequel - Back to the Pixels*.
 [[project page]](https://www.robots.ox.ac.uk/~vgg/research/autoad/)
 [[AutoAD-III PDF]](https://www.robots.ox.ac.uk/~vgg/publications/2024/Han24/han24.pdf)
 
+<img src="../asset/v3_figure.jpg" width="600">
+
 ### Scripts & Datasets
 We are working on sharing training/testing scripts and datasets. They will be available shortly here.
 

@@ -3,6 +3,8 @@ The codebase for *AutoAD II: The Sequel - Who, When, and What in Movie Audio Des
 [[project page]](https://www.robots.ox.ac.uk/~vgg/research/autoad/)
 [[AutoAD-II PDF]](https://www.robots.ox.ac.uk/~vgg/publications/2023/Han23a/han23a.pdf)
 
+<img src="../asset/v2_figure.jpg" width="600">
+
 ### Code and Models
 We are working on open-sourcing code and models.
 
