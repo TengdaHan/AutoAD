@@ -13,7 +13,7 @@
 * 2024.04.22: AutoAD-III paper released. Model weights and examples AD outputs are [available here](autoad_iii/). More code and datasets coming soon.
 
 
-<img src="../asset/v3_figure.jpg" width="600">
+<img src="asset/v3_figure.jpg" width="600">
 
 
 ### Details
