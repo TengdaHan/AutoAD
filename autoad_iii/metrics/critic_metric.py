@@ -21,7 +21,7 @@ coref_model = FCoref(device='cuda:0', enable_progress_bar=False)
 def build_synonym(coref_data, source_idx, role_names, drop_pronouns=True):
     """ Function to extract clusters containing any of the character names. """
     res = []
-    text = coref_data.text
+    coref_text = coref_data.text
     total_rows = np.max(source_idx) + 1
     synonym_rows = {idx: [] for idx in np.arange(total_rows)}
     synonym_rows_cid = {idx: [] for idx in np.arange(total_rows)}
@@ -30,8 +30,8 @@ def build_synonym(coref_data, source_idx, role_names, drop_pronouns=True):
     for _, cluster in enumerate(coref_data.get_clusters(as_strings=False)):
         cluster_name = None
         # some cluster is char name; some is not (e.g. a letter, it, the letter)
-        cluster_str_origin = [text[x[0]:x[1]] for x in cluster]
-        cluster_str = [text[x[0]:x[1]] for x in cluster]
+        cluster_str_origin = [coref_text[x[0]:x[1]] for x in cluster]
+        cluster_str = [coref_text[x[0]:x[1]] for x in cluster]
         match_role_set = set(cluster_str).intersection(set(role_names))
         IS_CHAR = len(match_role_set) > 0
         if IS_CHAR:
